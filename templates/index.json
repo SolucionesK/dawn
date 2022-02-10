@@ -105,8 +105,8 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false
+            "product": "depiladora-facial-para-vellos-y-axila-mujer",
+            "second_image": true
           }
         },
         "collection-1": {
