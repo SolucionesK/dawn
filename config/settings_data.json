@@ -57,8 +57,8 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Quienes somos",
+              "subtext": "<p>Empresa dedicada a la distribución y venta directa de artículos tecnológicos y de belleza.<\/p>"
             }
           }
         },
