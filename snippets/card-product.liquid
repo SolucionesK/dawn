@@ -29,6 +29,11 @@
     endif
   -%}
   <div class="card-wrapper underline-links-hover">
+
+    {%for tag in product.tags %}
+    <div class="ribbon"><span>OFERTA</span></div>
+    {%endfor%}
+
     <div class="card
       card--{{ settings.card_style }}
       {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
