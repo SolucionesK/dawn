@@ -1,5 +1,9 @@
 {
   "current": {
+    "card_style": "standard",
+    "card_color_scheme": "background-2",
+    "badge_position": "top right",
+    "sale_badge_color_scheme": "accent-1",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
