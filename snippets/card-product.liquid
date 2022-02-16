@@ -30,31 +30,33 @@
   -%}
   <div class="card-wrapper underline-links-hover">
 
-    {%for tag in product.tags %}
-      {%if tag contains settings.tag_prefijo%}
-        {%if settings.tag_pref_nuevo != blank %}
-          {%if tag contains settings.tag_pref_nuevo %}
+    <div class="ribbon"><span>PRUEBA</span></div>
+
+    {% comment %} {% for tag in product.tags %}
+      {% if tag contains settings.tag_prefijo %}
+        {% if settings.tag_pref_nuevo != blank %}
+          {% if tag contains settings.tag_pref_nuevo %}
             <div class="ribbon">
-              <span style="background:{{ settings.ribbon_color_nuevo}}">{ tag | remove:settings.tag_prefijo}</span>
+              <span style="background:{{ settings.ribbon_color_nuevo }}">{ tag | remove:settings.tag_prefijo}</span>
             </div>
-          {%endif%}
-        {%endif%}
-        {%if settings.tag_pref_oferta != blank %}
-          {%if tag contains settings.tag_pref_oferta %}
+          {% endif %}
+        {% endif %}
+        {% if settings.tag_pref_oferta != blank %}
+          {% if tag contains settings.tag_pref_oferta %}
             <div class="ribbon">
-              <span style="background:{{ settings.ribbon_color_oferta}}">{ tag | remove:settings.tag_prefijo}</span>
+              <span style="background:{{ settings.ribbon_color_oferta }}">{ tag | remove:settings.tag_prefijo}</span>
             </div>
-          {%endif%}
-        {%endif%}
-        {%if settings.tag_pref_top_ventas != blank %}
-          {%if tag contains settings.tag_pref_top_ventas %}
+          {% endif %}
+        {% endif %}
+        {% if settings.tag_pref_top_ventas != blank %}
+          {% if tag contains settings.tag_pref_top_ventas %}
             <div class="ribbon">
-              <span style="background:{{ settings.ribbon_color_top_ventas}}">{ tag | remove:settings.tag_prefijo}</span>
+              <span style="background:{{ settings.ribbon_color_top_ventas }}">{ tag | remove:settings.tag_prefijo}</span>
             </div>
-          {%endif%}
-        {%endif%}    
+          {% endif %}
+        {% endif %}    
       {%endif%}
-    {%endfor%}
+    {% endfor %} {% endcomment %}
 
     <div class="card
       card--{{ settings.card_style }}
