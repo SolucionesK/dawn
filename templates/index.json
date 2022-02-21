@@ -79,7 +79,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Productos destacados",
+        "title": "PRODUCTOS DESTACADOS",
         "collection": "productos-destacados",
         "products_to_show": 8,
         "color_scheme": "inverse",
