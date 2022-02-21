@@ -12,7 +12,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Bienvenido a nuestra tienda",
+              "text": "Espacio para PROMOCIONES y códigos de descuento %",
               "color_scheme": "inverse",
               "link": ""
             }
