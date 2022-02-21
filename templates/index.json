@@ -82,7 +82,7 @@
         "title": "PRODUCTOS DESTACADOS",
         "collection": "productos-destacados",
         "products_to_show": 8,
-        "color_scheme": "inverse",
+        "color_scheme": "background-2",
         "show_view_all": true,
         "swipe_on_mobile": false,
         "image_ratio": "adapt",
