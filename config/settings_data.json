@@ -13,8 +13,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Espacio para PROMOCIONES y códigos de descuento %",
-              "color_scheme": "inverse",
+              "text": "ENVIOS en 24 HORAS y totalmente GRATUITOS",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
