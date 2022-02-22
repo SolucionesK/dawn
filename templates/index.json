@@ -54,7 +54,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>En <strong>ILLUSOCKET®️<\/strong> tenemos las últimas tendencias del mercado al mejor precio posible todos los días, todos los envíos en 24 horas y totalmente gratuitos!<br\/><br\/><em>Vendemos en todas las plataformas del Mercado Online tanto en AMAZON, ALIEXPRESS, WALLAPOP, FACEBOOK-INSTAGRAM, etc.. <\/em><\/p><p>¿A que esperas para seguir nuestro contenido y conocer todas nuestras novedades? 📸<a href=\"https:\/\/instagram.com\/illusocket\" target=\"_blank\" title=\"https:\/\/instagram.com\/illusocket\">INSTAGRAM<\/a><\/p><p>Siempre priorizamos en <strong>fidelizar a nuestros clientes<\/strong>, por este motivo nos preocupamos plenamente en dar <strong>el mejor servicio<\/strong> con<strong> productos de alta calidad<\/strong> garantizando a nuestros clientes con una <strong>devolución instantánea<\/strong> - <a href=\"https:\/\/illusocket.com\/policies\/refund-policy\" target=\"_blank\" title=\"https:\/\/illusocket.com\/policies\/refund-policy\">Política de Devolución<\/a><\/p><p>OFRECEMOS<\/p><p>✔️ Productos <strong>Novedosos y en Tendencia<\/strong>.<\/p><p>✔️ Envíos en <strong>24 Horas<\/strong> y totalmente <strong>GRATUITOS<\/strong>.<\/p><p>✔️ <strong>Garantía<\/strong> sin Complicaciones.<\/p><p>✔️ Diferentes formas de pago en las que incluye el Pago a Contra reembolso.<\/p><p>✔️ Resolvemos tus dudas al instante, puede contactar con nosotros mediante: <\/p><p><strong>📧 info@illusocket.com<\/strong><\/p><p><strong>📲 WhatsApp - 636 906 422<\/strong><\/p>"
+            "text": "<p>En <strong>ILLUSOCKET®️<\/strong> tenemos las últimas tendencias del mercado al mejor precio posible todos los días, todos los envíos en 24 horas y totalmente gratuitos!<br\/><br\/><em>Vendemos en todas las plataformas del Mercado Online tanto en AMAZON, ALIEXPRESS, WALLAPOP, FACEBOOK-INSTAGRAM, etc..<\/em><\/p><p>¿A que esperas para seguir nuestro contenido y conocer todas nuestras novedades? 📸<a href=\"https:\/\/instagram.com\/illusocket\" title=\"https:\/\/instagram.com\/illusocket\">INSTAGRAM<\/a><\/p><p>Siempre priorizamos en <strong>fidelizar a nuestros clientes<\/strong>, por este motivo nos preocupamos plenamente en dar <strong>el mejor servicio<\/strong> con<strong> productos de alta calidad<\/strong> garantizando a nuestros clientes con una <strong>devolución instantánea<\/strong> - <a href=\"https:\/\/illusocket.com\/policies\/refund-policy\" title=\"https:\/\/illusocket.com\/policies\/refund-policy\">Política de Devolución<\/a><\/p><p>OFRECEMOS<\/p><p>✔️ Productos <strong>Novedosos y en Tendencia<\/strong>.<\/p><p>✔️ Envíos en <strong>24 Horas<\/strong> y totalmente <strong>GRATUITOS<\/strong>.<\/p><p>✔️ <strong>Garantía<\/strong> sin Complicaciones.<\/p><p>✔️ Diferentes formas de pago en las que incluye el Pago a Contra reembolso.<\/p><p>✔️ Resolvemos tus dudas al instante, puede contactar con nosotros mediante:<\/p><p><strong>📧 info@illusocket.com<\/strong><\/p><p><strong>📲 WhatsApp - 636 906 422<\/strong><\/p>"
           }
         },
         "b7660c7d-aa57-4e93-ab7d-eef4cae29a6d": {
@@ -244,6 +244,43 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "16455570610f30d596": {
+      "type": "rich-text",
+      "blocks": {
+        "16455570610b944a4f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16455570610b944a4f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16455570610b944a4f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16455570610b944a4f-0",
+        "16455570610b944a4f-1",
+        "16455570610b944a4f-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -253,6 +290,7 @@
     "collage",
     "video",
     "multicolumn",
-    "16455494345eecbb32"
+    "16455494345eecbb32",
+    "16455570610f30d596"
   ]
 }
