@@ -97,12 +97,6 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "cepillos"
-          }
-        },
         "product": {
           "type": "product",
           "settings": {
@@ -110,17 +104,24 @@
             "second_image": true
           }
         },
-        "collection-1": {
+        "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": "planchas"
+            "collection": "cepillos"
+          }
+        },
+        "937b2aaa-705b-4c52-9e97-1b06d6ea3da5": {
+          "type": "product",
+          "settings": {
+            "product": "cepillo-secador-de-pelo-cepillo-de-aire-caliente-4-en-1-cepillo-secador-alisador-multifuncional-regalo-original",
+            "second_image": true
           }
         }
       },
       "block_order": [
-        "collection-0",
         "product",
-        "collection-1"
+        "collection-0",
+        "937b2aaa-705b-4c52-9e97-1b06d6ea3da5"
       ],
       "settings": {
         "heading": "Lo mejor en Belleza",
