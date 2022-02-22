@@ -104,10 +104,11 @@
             "second_image": true
           }
         },
-        "collection-0": {
-          "type": "collection",
+        "4c590792-ec18-4839-9a06-17bdfd92339e": {
+          "type": "product",
           "settings": {
-            "collection": "cepillos"
+            "product": "cepillo-alisador-de-pelo-peine-alisador-de-cabello-con-5-niveles-de-calor-temperatura-regulable-proteccion-anti-quemaduras-temperatura-constante-cepillo-alisador-profesional-regalo-original",
+            "second_image": true
           }
         },
         "937b2aaa-705b-4c52-9e97-1b06d6ea3da5": {
@@ -120,12 +121,12 @@
       },
       "block_order": [
         "product",
-        "collection-0",
+        "4c590792-ec18-4839-9a06-17bdfd92339e",
         "937b2aaa-705b-4c52-9e97-1b06d6ea3da5"
       ],
       "settings": {
         "heading": "Lo mejor en Belleza",
-        "desktop_layout": "right",
+        "desktop_layout": "left",
         "mobile_layout": "collage",
         "color_scheme": "background-1",
         "padding_top": 36,
@@ -147,6 +148,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
