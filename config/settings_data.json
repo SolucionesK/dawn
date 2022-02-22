@@ -45,6 +45,7 @@
         "blocks": {
           "3e21b6d8-4ebd-45d1-b012-0ddafb16f4eb": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "heading": "Información de Contacto",
               "subtext": "<p><strong>📧 info@illusocket.com<\/strong><\/p><p>📞 <strong>+34 636 906 422<\/strong><\/p>"
@@ -61,7 +62,7 @@
             "type": "text",
             "settings": {
               "heading": "Quienes somos",
-              "subtext": "<p>Empresa dedicada a la distribución y venta directa de artículos tecnológicos y de belleza.<\/p><p><strong>¡Estamos para ayudarte!<\/strong><\/p><p>Cualquier duda que tengas sobre ILLUSOCKET no dudes en contactarnos para que podamos ayudarte, le responderemos lo más pronto posible.<\/p><p><\/p><p><strong>SÍGUENOS<\/strong><\/p>"
+              "subtext": "<p>Empresa dedicada a la distribución y venta directa de artículos tecnológicos y de belleza.<\/p><p>En <strong>ILLUSOCKET TECHNOLOGY S.L.<\/strong> encontrarás todos los productos más vendidos de las grandes plataformas de venta online a precios mucho más económicos.<\/p><p><strong>¡Haznos saber que necesitas!<\/strong><\/p><p>Tenemos a disposición un apartado con preguntas frecuentes, que podría contestar a su duda. <a href=\"\/pages\/contact\" title=\"Preguntas Frecuentes\">FAQ<\/a><br\/>El tiempo medio de respuesta es de 24Horas.<br\/>                                                                                 Estaremos encantados de contactarte  y resolver tus dudas lo antes posible    <\/p><p><\/p><p><strong>SÍGUENOS en todas nuestras REDES SOCIALES<\/strong><\/p><p><em>¡No te pierdas nada!<\/em><\/p>"
             }
           }
         },
