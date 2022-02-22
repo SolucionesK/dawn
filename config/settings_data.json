@@ -13,7 +13,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "ENVIOS en 24 HORAS y totalmente GRATUITOS",
+              "text": "ENVIOS en 24\/48 HORAS y totalmente GRATUITOS",
               "color_scheme": "accent-1",
               "link": ""
             }
