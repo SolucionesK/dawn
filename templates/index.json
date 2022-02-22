@@ -217,12 +217,12 @@
         "1645549434e4ab768b-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Envíenos un Whatssap",
+            "button_label_1": "Envíanos un WhatsApp",
             "button_link_1": "https:\/\/api.whatsapp.com\/send?phone=34636906422",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "Mándanos un Email",
             "button_link_2": "mailto:info@illusocket.com",
-            "button_style_secondary_2": true
+            "button_style_secondary_2": false
           }
         }
       },
@@ -232,13 +232,14 @@
         "1645549434e4ab768b-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Agradecimiento_ILLUSOCKET.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
