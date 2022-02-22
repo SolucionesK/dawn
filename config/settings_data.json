@@ -59,22 +59,14 @@
             "type": "text",
             "settings": {
               "heading": "Quienes somos",
-              "subtext": "<p>Empresa dedicada a la distribución y venta directa de artículos tecnológicos y de belleza.<\/p>"
-            }
-          },
-          "b735d6eb-5c69-4f01-9e84-ee9d62429ded": {
-            "type": "text",
-            "settings": {
-              "heading": "Síguenos - Redes Sociales",
-              "subtext": "<p><a href=\"https:\/\/emojipedia.org\/instagram\/\" target=\"_blank\">📸<\/a> INSTAGRAM<\/p><p><\/p>"
+              "subtext": "<p>Empresa dedicada a la distribución y venta directa de artículos tecnológicos y de belleza.<\/p><p>SÍGUENOS - REDES SOCIALES Y PARTICIPA EN TODOS LOS SORTEOS QUE REALIZAMOS <\/p>"
             }
           }
         },
         "block_order": [
           "3e21b6d8-4ebd-45d1-b012-0ddafb16f4eb",
           "footer-1",
-          "footer-2",
-          "b735d6eb-5c69-4f01-9e84-ee9d62429ded"
+          "footer-2"
         ],
         "settings": {
           "color_scheme": "inverse",
