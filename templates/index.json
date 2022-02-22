@@ -80,12 +80,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "PRODUCTOS DESTACADOS",
-        "collection": "productos-destacados",
+        "title": "{{ section.settings.collection.title }}",
+        "collection": "mas-vendidos",
         "products_to_show": 8,
         "color_scheme": "background-2",
         "show_view_all": true,
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
