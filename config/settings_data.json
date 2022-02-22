@@ -40,11 +40,11 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
+          "3e21b6d8-4ebd-45d1-b012-0ddafb16f4eb": {
+            "type": "text",
             "settings": {
               "heading": "Información de Contacto",
-              "menu": ""
+              "subtext": "<p><strong>📧 info@illusocket.com<\/strong><\/p><p>📞 <strong>+34 636 906 422<\/strong><\/p>"
             }
           },
           "footer-1": {
@@ -63,7 +63,7 @@
           }
         },
         "block_order": [
-          "footer-0",
+          "3e21b6d8-4ebd-45d1-b012-0ddafb16f4eb",
           "footer-1",
           "footer-2"
         ],
