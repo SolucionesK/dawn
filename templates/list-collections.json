@@ -3,6 +3,8 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
+        "title": "TODAS LAS COLECCIONES",
+        "sort": "alphabetical",
         "image_ratio": "square"
       }
     }

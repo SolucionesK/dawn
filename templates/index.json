@@ -6,19 +6,26 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading_size": "large"
+            "heading": "Artículos y Componentes",
+            "heading_size": "medium"
           }
         },
         "text": {
-          "type": "text"
+          "type": "text",
+          "settings": {
+            "text": "tu tienda de artículos de belleza y tecnología",
+            "text_style": "caption-with-letter-spacing"
+          }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_label_1": "Ver Catálogo",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
-            "button_label_2": ""
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -28,80 +35,147 @@
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image": "shopify:\/\/shop_images\/Banner_Shopify_ILLUSOCKET_6280a934-c9a0-46c6-99d1-f0e8032cf082.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
+        "adapt_height_first_image": true,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading"
-        },
         "text": {
-          "type": "text"
+          "type": "text",
+          "settings": {
+            "text": "<p>En <strong>ILLUSOCKET®️<\/strong> tenemos las últimas tendencias del mercado al mejor precio posible todos los días, todos los envíos en 24 horas y totalmente gratuitos!<br\/><br\/><em>Vendemos en todas las plataformas del Mercado Online tanto en AMAZON, ALIEXPRESS, WALLAPOP, FACEBOOK-INSTAGRAM, etc..<\/em><\/p><p>¿A que esperas para seguir nuestro contenido y conocer todas nuestras novedades? 📸<a href=\"https:\/\/instagram.com\/illusocket\" title=\"https:\/\/instagram.com\/illusocket\">INSTAGRAM<\/a><\/p><p>Siempre priorizamos en <strong>fidelizar a nuestros clientes<\/strong>, por este motivo nos preocupamos plenamente en dar <strong>el mejor servicio<\/strong> con<strong> productos de alta calidad<\/strong> garantizando a nuestros clientes con una <strong>devolución instantánea<\/strong> - <a href=\"https:\/\/illusocket.com\/policies\/refund-policy\" title=\"https:\/\/illusocket.com\/policies\/refund-policy\">Política de Devolución<\/a><\/p><p>OFRECEMOS<\/p><p>✔️ Productos <strong>Novedosos y en Tendencia<\/strong>.<\/p><p>✔️ Envíos en <strong>24 Horas<\/strong> y totalmente <strong>GRATUITOS<\/strong>.<\/p><p>✔️ <strong>Garantía<\/strong> sin Complicaciones.<\/p><p>✔️ Diferentes formas de pago en las que incluye el Pago a Contra reembolso.<\/p><p>✔️ Resolvemos tus dudas al instante, puede contactar con nosotros mediante:<\/p><p><strong>📧 info@illusocket.com<\/strong><\/p><p><strong>📲 WhatsApp - 636 906 422<\/strong><\/p>"
+          }
+        },
+        "b7660c7d-aa57-4e93-ab7d-eef4cae29a6d": {
+          "type": "button",
+          "settings": {
+            "button_label": "ÚLTIMAS NOVEDADES",
+            "button_link": "shopify:\/\/collections\/productos-destacados",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "text",
+        "b7660c7d-aa57-4e93-ab7d-eef4cae29a6d"
       ],
       "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "collection": "all",
+        "title": "{{ section.settings.collection.title }}",
+        "collection": "mas-vendidos",
         "products_to_show": 8,
-        "show_view_all": false,
+        "color_scheme": "background-2",
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
         "show_secondary_image": true,
-        "padding_top": 28
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
-          "type": "collection"
+        "4c590792-ec18-4839-9a06-17bdfd92339e": {
+          "type": "product",
+          "settings": {
+            "product": "cepillo-alisador-de-pelo-peine-alisador-de-cabello-con-5-niveles-de-calor-temperatura-regulable-proteccion-anti-quemaduras-temperatura-constante-cepillo-alisador-profesional-regalo-original",
+            "second_image": true
+          }
         },
         "product": {
-          "type": "product"
+          "type": "product",
+          "settings": {
+            "product": "depiladora-facial-para-vellos-y-axila-mujer",
+            "second_image": true
+          }
         },
-        "collection-1": {
-          "type": "collection"
+        "937b2aaa-705b-4c52-9e97-1b06d6ea3da5": {
+          "type": "product",
+          "settings": {
+            "product": "cepillo-secador-de-pelo-cepillo-de-aire-caliente-4-en-1-cepillo-secador-alisador-multifuncional-regalo-original",
+            "second_image": true
+          }
         }
       },
       "block_order": [
-        "collection-0",
+        "4c590792-ec18-4839-9a06-17bdfd92339e",
         "product",
-        "collection-1"
-      ]
+        "937b2aaa-705b-4c52-9e97-1b06d6ea3da5"
+      ],
+      "settings": {
+        "heading": "Lo mejor en Belleza",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
-        "heading": ""
+        "heading": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         },
         "column2": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         },
         "column3": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -112,9 +186,63 @@
       "settings": {
         "title": "",
         "image_width": "third",
+        "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": ""
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16455494345eecbb32": {
+      "type": "image-banner",
+      "blocks": {
+        "1645549434e4ab768b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "¡Estamos para ayudarte!",
+            "heading_size": "medium"
+          }
+        },
+        "1645549434e4ab768b-1": {
+          "type": "text",
+          "settings": {
+            "text": "Cualquier duda que tengas sobre ILLUSOCKET no dudes en contactarnos para que podamos ayudarte, te responderemos lo más pronto posible.",
+            "text_style": "body"
+          }
+        },
+        "1645549434e4ab768b-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Envíanos un WhatsApp",
+            "button_link_1": "https:\/\/api.whatsapp.com\/send?phone=34636906422",
+            "button_style_secondary_1": false,
+            "button_label_2": "Mándanos un Email",
+            "button_link_2": "mailto:info@illusocket.com",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1645549434e4ab768b-0",
+        "1645549434e4ab768b-1",
+        "1645549434e4ab768b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Agradecimiento_ILLUSOCKET_49bfb235-b58e-483d-be97-e7693937a082.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -124,6 +252,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "16455494345eecbb32"
   ]
 }
