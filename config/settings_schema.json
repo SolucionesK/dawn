@@ -8,6 +8,95 @@
     "theme_support_url": "https://support.shopify.com/"
   },
   {
+    "name": {
+      "es": "RIBBONS"
+    },
+    "settings": [
+      {
+        "type": "header",
+        "content": {
+          "es": "Ribbons Color",
+          "en": "Ribbons Color"
+        }
+      },
+      {
+        "type": "color",
+        "id": "ribbon_color_nuevo",
+        "label": {
+          "es": "Color de ribbons Nuevo",
+          "en": "Ribbons Color New"
+        },
+        "default": "#f5f5f5"
+      },
+      {
+        "type": "color",
+        "id": "ribbon_color_oferta",
+        "label": {
+          "es": "Color de ribbons Oferta",
+          "en": "Ribbons Color Offer"
+        },
+        "default": "#f5d9d9"
+      },
+      {
+        "type": "color",
+        "id": "ribbon_color_top_ventas",
+        "label": {
+          "es": "Color de ribbons Top Ventas",
+          "en": "Ribbons Color Top Sales"
+        },
+        "default": "#f5c9c9"
+      },
+      {
+        "type": "text",
+        "id": "tag_prefijo",
+        "label": {
+          "es": "Tag prefijo",
+          "en": "Tag Prefix"
+        },
+        "info": {
+          "es": "Prefijo para el tag de los productos",
+          "en": "Prefix for the product tag"
+        }
+      },
+      {
+        "type": "text",
+        "id": "tag_pref_nuevo",
+        "label": {
+          "es": "Tag Nuevo",
+          "en": "Tag New"
+        },
+        "info": {
+          "es": "Tag de los productos Nuevos",
+          "en": "Tag for the New products"
+        }
+      },
+      {
+        "type": "text",
+        "id": "tag_pref_oferta",
+        "label": {
+          "es": "Tag Oferta",
+          "en": "Tag Offer"
+        },
+        "info": {
+          "es": "Tag de los productos en Oferta",
+          "en": "Tag for the Offer products"
+        }
+      },
+      {
+        "type": "text",
+        "id": "tag_pref_top_ventas",
+        "label": {
+          "es": "Tag Top Ventas",
+          "en": "Tag Top Sales"
+        },
+        "info": {
+          "es": "Tag de los productos Top Ventas",
+          "en": "Tag for the Top Sales products"
+        }
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
