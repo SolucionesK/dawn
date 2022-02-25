@@ -80,7 +80,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "{{ section.settings.collection.title }}",
+        "title": "LOS {{ section.settings.collection.title }}",
         "collection": "mas-vendidos",
         "products_to_show": 8,
         "color_scheme": "background-2",
