@@ -2829,3 +2829,16 @@ details-disclosure > details {
   border-bottom: 3px solid transparent;
   border-top: 3px solid #000000;
 }
+
+/* Menu Lateral */
+
+.header__inline-menu {
+  position: absolute;
+  top: 136%;
+  left: 15px;
+}
+.list-menu--inline {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
