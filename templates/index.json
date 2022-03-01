@@ -51,6 +51,13 @@
     "rich_text": {
       "type": "rich-text",
       "blocks": {
+        "45a972cd-639a-47dc-81e2-56aa56dc9618": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Que te puede ofrecer Illusocket?",
+            "heading_size": "h2"
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
@@ -67,6 +74,7 @@
         }
       },
       "block_order": [
+        "45a972cd-639a-47dc-81e2-56aa56dc9618",
         "text",
         "b7660c7d-aa57-4e93-ab7d-eef4cae29a6d"
       ],
