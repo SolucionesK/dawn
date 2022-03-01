@@ -834,6 +834,9 @@ summary::-webkit-details-marker {
 .focus-none {
   box-shadow: none !important;
   outline: 0 !important;
+  width: 85% !important;
+  margin-left: 15% !important;
+
 }
 
 .focus-offset:focus-visible {
