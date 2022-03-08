@@ -54,7 +54,7 @@
           "settings": {
             "heading": "Materiales",
             "icon": "eye",
-            "content": "<p>Aluminio<\/p>",
+            "content": "<p>{{ product.metafields.my_fields.material.value }}<\/p>",
             "page": ""
           }
         },
