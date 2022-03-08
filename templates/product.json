@@ -53,8 +53,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Materiales",
-            "icon": "leather",
-            "content": "",
+            "icon": "pants",
+            "content": "<p>Fibra<\/p>",
             "page": ""
           }
         },
