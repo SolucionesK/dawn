@@ -51,7 +51,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Materiales",
             "icon": "leather",
@@ -61,7 +60,6 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Envíos y devoluciones",
             "icon": "truck",
