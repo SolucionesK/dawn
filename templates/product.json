@@ -69,11 +69,10 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Dimensiones",
             "icon": "ruler",
-            "content": "",
+            "content": "<p>{{ product.metafields.my_fields.dimensiones | metafield_tag }}<\/p>",
             "page": ""
           }
         },
