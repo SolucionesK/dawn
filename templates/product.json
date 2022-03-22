@@ -85,7 +85,6 @@
         },
         "b003b782-5e38-48c1-a73b-b21dd7647182": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Collapsible row",
             "icon": "check_mark",
