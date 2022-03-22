@@ -8,6 +8,8 @@
     "tag_pref_oferta": "et-oferta",
     "tag_pref_top_ventas": "et-top ventas",
     "page_width": 1600,
+    "variant_pills_shadow_opacity": 0,
+    "variant_pills_shadow_blur": 0,
     "card_style": "standard",
     "card_color_scheme": "background-2",
     "badge_position": "bottom left",
