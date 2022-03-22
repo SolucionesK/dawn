@@ -3,9 +3,9 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "TODAS LAS COLECCIONES",
+        "title": "TODAS LAS COLECCIONES ILLUSOCKET",
         "sort": "alphabetical",
-        "image_ratio": "square"
+        "image_ratio": "adapt"
       }
     }
   },
