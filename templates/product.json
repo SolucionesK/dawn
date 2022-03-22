@@ -104,7 +104,6 @@
         },
         "c0f4edca-fb86-48ba-b649-07b2765e6b06": {
           "type": "popup",
-          "disabled": true,
           "settings": {
             "text": "Pop-up link text",
             "page": "contact"
