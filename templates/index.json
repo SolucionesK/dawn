@@ -1,5 +1,22 @@
 {
   "sections": {
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "🔥LOS PRODUCTOS {{ section.settings.collection.title }} VENDIDOS DE INTERNET🔥",
+        "collection": "mas-vendidos",
+        "products_to_show": 8,
+        "color_scheme": "background-2",
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -83,23 +100,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 40
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "LOS {{ section.settings.collection.title }}",
-        "collection": "mas-vendidos",
-        "products_to_show": 8,
-        "color_scheme": "background-2",
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "padding_top": 28,
-        "padding_bottom": 36
       }
     },
     "collage": {
@@ -255,9 +255,9 @@
     }
   },
   "order": [
+    "featured_collection",
     "image_banner",
     "rich_text",
-    "featured_collection",
     "collage",
     "video",
     "multicolumn",
