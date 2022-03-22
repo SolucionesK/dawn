@@ -58,15 +58,6 @@
             "page": ""
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Envíos y devoluciones",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -102,6 +93,11 @@
             "page": ""
           }
         },
+        "bcfd1a1b-89ea-4765-9826-03c2be5b742d": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "c0f4edca-fb86-48ba-b649-07b2765e6b06": {
           "type": "popup",
           "settings": {
@@ -120,11 +116,11 @@
         "buy_buttons",
         "description",
         "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
         "b003b782-5e38-48c1-a73b-b21dd7647182",
+        "bcfd1a1b-89ea-4765-9826-03c2be5b742d",
         "c0f4edca-fb86-48ba-b649-07b2765e6b06"
       ],
       "settings": {
