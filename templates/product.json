@@ -168,9 +168,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-envio-gratis_ILLUSOCKET_Blanco.jpg",
             "title": "ENVÍO GRATUITO!",
-            "text": "<p>Aprovecha esta oportunidad de conseguir cualquier Articulo de nuestra tienda de forma totalmente gratuita! Lo recibirás en tu casa en un plazo de 24\/48 horas como máximo. <\/p>",
+            "text": "<p>Aprovecha esta oportunidad de conseguir cualquier Articulo de nuestra tienda de forma totalmente gratuita! Lo recibirás en tu casa en un plazo de 24\/48 horas como máximo. <br\/>Tras añadir el producto en el Carrito e ir a la siguiente opción ENVÍOS podrás observar los metodos de pago que disponemos:<\/p><p>【 Tarjeta de Credito (VISA, MASTERCARD) etc. 】<br\/>【 Paypal 】<\/p><p>【 Pago a la Entrega (Contra Reembolso) 】<br\/>【 Apple Pay y Google Pay 】<\/p><p>*Estamos valorando añadir el Metodo de Pago Bizum, les informaremos lo antes posibles de los cambios.<\/p><p>SIEMPRE TRATAREMOS DE DAR A NUESTROS CLIENTES TODAS LAS FACILIDADES POSIBLES EXISTENTES.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/sobre-nosotros"
           }
         },
         "column-1": {
