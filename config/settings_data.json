@@ -9,6 +9,7 @@
     "tag_pref_top_ventas": "et-top ventas",
     "page_width": 1600,
     "spacing_sections": 0,
+    "spacing_grid_vertical": 40,
     "buttons_border_thickness": 1,
     "buttons_radius": 10,
     "buttons_shadow_opacity": 0,
