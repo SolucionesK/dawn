@@ -174,7 +174,7 @@
     </div>
   </div>
 <div class="card--text">
-  <a{% if card_product.metafields.my_fields.amazon_product.value == blank %} role="link" aria-disabled="true"{% else %} target="_blank" href="{{ card_product.metafields.my_fields.amazon_product.value }}"{% endif %} class="button">
+  <a{% if card_product.metafields.my_fields.amazon_product.value == blank %} role="link" aria-disabled="true"{% else %} target="_blank" href="{{ card_product.metafields.my_fields.amazon_product.value }}"{% endif %} class="button button--primary">
                   {{ card_product.metafields.my_fields.amazon_product.name | escape }}
                 </a>
 </div>
