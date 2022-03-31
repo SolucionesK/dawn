@@ -95,11 +95,11 @@
             "page": "contact"
           }
         },
-        "d5589a69-4b44-4c63-8be5-ed25966c751f": {
-          "type": "text",
+        "52317a8e-8983-4c8d-b291-e5e0f6b7ac7d": {
+          "type": "button",
           "settings": {
-            "text": "Comparar con Amazon",
-            "text_style": "uppercase"
+            "button_label": "Comparar Con Amazon",
+            "button_link": "{{ product.metafields.my_fields.amazon_product.value }}"
           }
         }
       },
@@ -118,7 +118,7 @@
         "share",
         "bcfd1a1b-89ea-4765-9826-03c2be5b742d",
         "c0f4edca-fb86-48ba-b649-07b2765e6b06",
-        "d5589a69-4b44-4c63-8be5-ed25966c751f"
+        "52317a8e-8983-4c8d-b291-e5e0f6b7ac7d"
       ],
       "settings": {
         "enable_sticky_info": true,
