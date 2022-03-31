@@ -173,6 +173,11 @@
       </div>
     </div>
   </div>
+<div class="card--text">
+  <a{% if card_product.block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} target="_blank" href="{{ card_product.block.settings.button_link }}"{% endif %} class="button{% if card_product.block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ card_product.block.shopify_attributes }}>
+                  {{ card_product.block.settings.button_label | escape }}
+                </a>
+</div>
 {%- else -%}
   <div class="card-wrapper underline-links-hover">
     <div class="card
