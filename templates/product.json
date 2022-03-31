@@ -94,6 +94,13 @@
             "text": "Preguntas Frecuentes",
             "page": "contact"
           }
+        },
+        "23558da9-3a31-4002-9a2d-b1b4896da7a1": {
+          "type": "text",
+          "settings": {
+            "text": "COMPARAR EN AMAZON{{ product.metafields.my_fields.amazon.value }}",
+            "text_style": "uppercase"
+          }
         }
       },
       "block_order": [
@@ -110,7 +117,8 @@
         "collapsible-row-3",
         "share",
         "bcfd1a1b-89ea-4765-9826-03c2be5b742d",
-        "c0f4edca-fb86-48ba-b649-07b2765e6b06"
+        "c0f4edca-fb86-48ba-b649-07b2765e6b06",
+        "23558da9-3a31-4002-9a2d-b1b4896da7a1"
       ],
       "settings": {
         "enable_sticky_info": true,
