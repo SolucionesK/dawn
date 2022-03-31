@@ -162,6 +162,14 @@
 
             {% render 'price', product: card_product, price_class: '' %}
           </div>
+          {%- if card_product.metafields.my_fields.amazon_product.value != blank -%}
+          	<div class="card--text">
+              <a target="_blank" href="{{ card_product.metafields.my_fields.amazon_product.value }}" class="button button--primary">
+                              Comparar con Amazon
+                            </a>
+            </div>
+          {%- endif -%}
+          
         </div>
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
@@ -173,11 +181,6 @@
       </div>
     </div>
   </div>
-<div class="card--text">
-  <a{% if card_product.metafields.my_fields.amazon_product.value == blank %} role="link" aria-disabled="true"{% else %} target="_blank" href="{{ card_product.metafields.my_fields.amazon_product.value }}"{% endif %} class="button button--primary">
-                  Comparar con Amazon
-                </a>
-</div>
 {%- else -%}
   <div class="card-wrapper underline-links-hover">
     <div class="card
