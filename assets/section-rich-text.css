@@ -1,7 +1,7 @@
 .rich-text {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
   z-index: 1;
 }
 
@@ -50,9 +50,13 @@
 }
 
 .rich-text__blocks > * + * {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .rich-text__blocks > * + a {
-  margin-top: 3rem;
+  margin-top: 5rem;
+}
+
+.rich-text__blocks h2 {
+  font-size: 5rem;
 }
