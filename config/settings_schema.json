@@ -4,8 +4,8 @@
     "theme_name": "Dawn",
     "theme_version": "3.0.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https:\/\/help.shopify.com\/en\/manual\/online-store\/themes",
-    "theme_support_url": "https:\/\/support.shopify.com\/"
+    "theme_documentation_url": "https://help.shopify.com/en/manual/online-store/themes",
+    "theme_support_url": "https://support.shopify.com/"
   },
   {
     "name": {
@@ -148,8 +148,14 @@
         "type": "color",
         "id": "price_discount_text",
         "default": "#FF0000",
-        "label": "t:settings_schema.colors.settings.price_discount_text.label",
-        "info": "t:settings_schema.colors.settings.price_discount_text.info"
+        "label": {
+          "es": "Color Texto Precio Descuento",
+          "en": "Price Discount Text Color"
+        },
+        "info": {
+          "es": "Color del texto del precio con descuento",
+          "en": "Color of the text of the price with discount"
+        }
       },
       {
         "type": "color",
