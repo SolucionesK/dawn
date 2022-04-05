@@ -48,7 +48,7 @@
     <div class="price__regular">
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
       <span class="price-item price-item--regular">
-        {{ money_price }} {{ discount }}
+        {{ money_price }}
         {% comment %} {% if product.compare_at_price_max > product.price %}
           You save {{ product.compare_at_price_max | minus: product.price | times: 100.0 | divided_by: product.compare_at_price_max | money_without_currency | times: 100 | remove: '.0'}}%
         {% endif %} {% endcomment %}
