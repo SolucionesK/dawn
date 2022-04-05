@@ -2832,4 +2832,5 @@ details-disclosure > details {
 .price-discount{
   text-align: center;
   color: red;
+  font-weight: bold;
 }
