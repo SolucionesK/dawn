@@ -145,6 +145,13 @@
         "info": "t:settings_schema.colors.settings.colors_text.info"
       },
       {
+        "type": "color Discount label",
+        "id": "price_discount_text",
+        "default": "#FF0000",
+        "label": "t:settings_schema.colors.settings.price_discount_text.label",
+        "info": "t:settings_schema.colors.settings.price_discount.text.info"
+      },
+      {
         "type": "color",
         "id": "colors_outline_button_labels",
         "default": "#121212",

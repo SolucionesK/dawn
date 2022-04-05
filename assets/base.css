@@ -2829,7 +2829,7 @@ details-disclosure > details {
   border-bottom: 3px solid transparent;
   border-top: 3px solid #000000;
 }
-.price-discount{
+.price_discount_text{
   text-align: center;
   color: red;
   font-weight: bold;
