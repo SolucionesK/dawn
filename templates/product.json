@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Dimensiones",
             "icon": "ruler",
-            "content": "<p>Largo: {{ product.metafields.my_fields.largo | metafield_tag }}<\/p><p>Ancho: {{ product.metafields.my_fields.ancho | metafield_tag }}<\/p><p>Alto: {{ product.metafields.my_fields.dimensiones | metafield_tag }}<\/p>",
+            "content": "<p><strong>Largo:<\/strong> {{ product.metafields.my_fields.largo | metafield_tag }}<\/p><p><strong>Ancho:<\/strong> {{ product.metafields.my_fields.ancho | metafield_tag }}<\/p><p><strong>Alto: <\/strong>{{ product.metafields.my_fields.dimensiones | metafield_tag }}<\/p>",
             "page": ""
           }
         },
