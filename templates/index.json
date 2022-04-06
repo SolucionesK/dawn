@@ -3,7 +3,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "🔥LOS PRODUCTOS {{ section.settings.collection.title }} DE INTERNET🔥",
+        "title": "LOS PRODUCTOS {{ section.settings.collection.title }} DE INTERNET🔥",
         "collection": "mas-vendidos",
         "products_to_show": 8,
         "color_scheme": "background-2",
