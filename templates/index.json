@@ -1,5 +1,44 @@
 {
   "sections": {
+    "165276529094e4d2ed": {
+      "type": "rich-text",
+      "blocks": {
+        "1652765290b9b1959b-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        },
+        "1652765290b9b1959b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "TODO NUESTRO CATÁLOGO",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": true
+          }
+        },
+        "1652765290b9b1959b-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652765290b9b1959b-0",
+        "1652765290b9b1959b-2",
+        "1652765290b9b1959b-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -255,6 +294,7 @@
     }
   },
   "order": [
+    "165276529094e4d2ed",
     "featured_collection",
     "image_banner",
     "rich_text",
