@@ -73,10 +73,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/logo-facebook-png.png",
-            "title": "FACEBOOK",
-            "text": "",
+            "title": "",
+            "text": "<p><a href=\"https:\/\/www.facebook.com\/illusocket\" title=\"https:\/\/www.facebook.com\/illusocket\"><strong>FACEBOOK<\/strong><\/a><\/p>",
             "link_label": "",
-            "link": ""
+            "link": "https:\/\/www.facebook.com\/illusocket"
           }
         },
         "column3": {
