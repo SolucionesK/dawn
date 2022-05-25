@@ -63,8 +63,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/instagram-logo1-1024x1024.png",
-            "title": "INSTAGRAM",
-            "text": "",
+            "title": "",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/illusocket\/\" title=\"https:\/\/www.instagram.com\/illusocket\/\">INSTAGRAM<\/a><\/p>",
             "link_label": "",
             "link": "https:\/\/www.instagram.com\/illusocket\/"
           }
