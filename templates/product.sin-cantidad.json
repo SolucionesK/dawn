@@ -51,7 +51,7 @@
             "stars_fill_color": "#fff500",
             "star_size": 20,
             "text_align": "flex-start",
-            "product": "",
+            "product": "{{ product }}",
             "stars_text_empty": "No hay reseñas"
           }
         },
