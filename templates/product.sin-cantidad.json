@@ -1,0 +1,288 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materiales",
+            "icon": "eye",
+            "content": "<p>{{ product.metafields.my_fields.material.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensiones",
+            "icon": "ruler",
+            "content": "<p><strong>Largo:<\/strong> {{ product.metafields.my_fields.largo | metafield_tag }}<\/p><p><strong>Ancho:<\/strong> {{ product.metafields.my_fields.ancho | metafield_tag }}<\/p><p><strong>Alto: <\/strong>{{ product.metafields.my_fields.dimensiones | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Instrucciones de cuidado",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Compartir"
+          }
+        },
+        "bcfd1a1b-89ea-4765-9826-03c2be5b742d": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "c0f4edca-fb86-48ba-b649-07b2765e6b06": {
+          "type": "popup",
+          "settings": {
+            "text": "Preguntas Frecuentes",
+            "page": "contact"
+          }
+        },
+        "52317a8e-8983-4c8d-b291-e5e0f6b7ac7d": {
+          "type": "button",
+          "settings": {
+            "button_label": "Comparar Con Amazon",
+            "button_link": "{{ product.metafields.my_fields.amazon_product.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share",
+        "bcfd1a1b-89ea-4765-9826-03c2be5b742d",
+        "c0f4edca-fb86-48ba-b649-07b2765e6b06",
+        "52317a8e-8983-4c8d-b291-e5e0f6b7ac7d"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail",
+        "media_size": "small",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "1652705218c2ad5d0e": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "165270521891a8b0d0-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165270521891a8b0d0-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165270521891a8b0d0-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165270521891a8b0d0-0",
+        "165270521891a8b0d0-1",
+        "165270521891a8b0d0-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "image-with-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Espacio para Promo",
+            "heading_size": "h1"
+          }
+        },
+        "image-with-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Combine el texto con una imagen para centrarse en el producto, la colección o el artículo del blog que haya elegido. Añade detalles sobre la disponibilidad, el estilo o incluso proporciona una reseña.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image-with-text-0",
+        "image-with-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pasarelas_de_Pago.jpg",
+            "title": "",
+            "text": "<p><strong>ILLUSOCKET TECHNOLOGY S.L. <\/strong>es una empresa española seria, transparente y responsable, por ello te desglosamos las tarifas adicionales que existen según el método de pago que elijas.<\/p><p><strong>¿Por qué cobramos 10€ adicional si el pedido es a Contrareembolso?<\/strong><br\/>Cobramos esa cantidad ya que todos nuestros pedidos se envían con TIPSA o GLS según demanda de pedidos. A nosotros este servicio nos cuesta caro, además, enviar a Contrareembolso tiene un alto índice de paquetes no entregados, lo cual a nosotros como empresas nos causa gastos adicionales muy elevados que no podemos asumir. Si realmente estás interesado en nuestros productos, lo mejor que puedes hacer es pagar con Bizum, Tarjeta o Transferencia Bancaria. <br\/>Gracias por entendernos.<\/p><p><em><strong>Aprovecha esta oportunidad de conseguir cualquier Articulo de nuestra tienda de forma totalmente gratuita!<\/strong><\/em> Lo recibirás en tu casa en un plazo de 24\/48 horas como máximo. <br\/>Tras añadir el producto en el Carrito e ir a la siguiente opción ENVÍOS podrás observar los metodos de pago que disponemos:<\/p><p>【 Tarjeta de Credito (VISA, MASTERCARD) etc. 】<br\/>【 Paypal 】<\/p><p>【 Pago a la Entrega (Contra Reembolso) 】<br\/>【 Apple Pay y Google Pay 】<\/p><p><strong>*<\/strong>Estamos valorando añadir el Metodo de Pago Bizum para añadir en la web, aún así <strong>si quieres realizar el pago mediante BIZUM contactar con nosotros por Whatssap<\/strong> y te pasamos el enlace para que realizes el pago. Iremos informando lo antes posibles de los cambios.<\/p><p><em><strong>SIEMPRE TRATAREMOS DE DAR A NUESTROS CLIENTES TODAS LAS FACILIDADES POSIBLES EXISTENTES.<\/strong><\/em><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Hassle-Free Exchanges",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "También te puede gustar",
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652705218c2ad5d0e",
+    "image-with-text",
+    "multicolumn",
+    "product-recommendations"
+  ]
+}
