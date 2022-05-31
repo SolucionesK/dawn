@@ -207,7 +207,25 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
-  </head>
+  <script  src="{{ 'seal-review.js' | asset_url }}" defer="defer"></script>
+<script id="sealapps_product_review">
+    var shopifyObj = {
+        productName : {{ product.title | json }},
+        productId : {{ product.id | json }},
+        productImage : {{ product.images | json }},
+        productObj: {{ product.variants | json }},
+        themeName : {{ theme.name | json }},
+        sort_by : {{ collection.sort_by | json  }},
+        collectionId : {{ collection.id | json }},
+        effectiveTime: {{ seal-product-review.id | json }},
+    }
+    {% if collection.products %}
+    {% paginate collection.products by0%}
+    shopifyObj.productList = {{collection.products | json}}
+    {% endpaginate %}
+    {%endif%}
+    </script>
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
