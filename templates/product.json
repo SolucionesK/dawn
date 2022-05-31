@@ -278,14 +278,14 @@
     "1654016545cbccb3e0": {
       "type": "apps",
       "blocks": {
-        "3502ca0f-8ff8-432e-8962-e9161a3b55d2": {
+        "495affdc-0368-45a6-81fd-25f5a39e47d3": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
         }
       },
       "block_order": [
-        "3502ca0f-8ff8-432e-8962-e9161a3b55d2"
+        "495affdc-0368-45a6-81fd-25f5a39e47d3"
       ],
       "settings": {
         "include_margins": true
