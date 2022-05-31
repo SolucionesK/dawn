@@ -47,7 +47,7 @@
         "84d553c4-181a-4362-aa3e-d535fbc238f7": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "stars_fill_color": "#000000",
+            "stars_fill_color": "#fcfe05",
             "star_size": 20,
             "text_align": "flex-start",
             "product": "{{product}}",
