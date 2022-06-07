@@ -45,16 +45,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "e07bd27b-7ac9-4d56-86a7-b005eeee9619": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#fff500",
-            "star_size": 20,
-            "text_align": "flex-start",
-            "product": "{{ product }}",
-            "stars_text_empty": "No hay reseñas"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -122,7 +112,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "e07bd27b-7ac9-4d56-86a7-b005eeee9619",
         "description",
         "collapsible-row-0",
         "collapsible-row-2",
@@ -242,9 +231,11 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Pasarelas_de_Pago.jpg",
             "title": "",
@@ -284,16 +275,6 @@
     },
     "16540151926842ae60": {
       "type": "apps",
-      "blocks": {
-        "dbf725b0-412f-4192-8180-1c8c410749df": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "dbf725b0-412f-4192-8180-1c8c410749df"
-      ],
       "settings": {
         "include_margins": true
       }
