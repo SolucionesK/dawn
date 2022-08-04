@@ -1,0 +1,14 @@
+<script>var vstar_product_rating={{ product.metafields.vstar.product_rating }}</script>
+<script id="vstarSchemaJson" type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Product",
+		"@id": {{ request.origin | append: product.url | json }},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": {{ product.metafields.vstar.rating_value }},
+			"reviewCount": {{ product.metafields.vstar.review_count }}
+		},
+		"name": {{ product.title | json }}
+	}
+</script>
